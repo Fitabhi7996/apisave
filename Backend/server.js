@@ -26,7 +26,7 @@ app.get('/shayari', async (req, res) => {
     res.json({ shayari });
   } catch (error) {
     console.error('Error:', error.response?.data || error.message);
-    res.status(500).json({ error: error });
+    // res.status(500).json({ error: error });
   }
 });
 
