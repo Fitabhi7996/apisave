@@ -2,8 +2,6 @@ const express = require('express');
 const axios = require('axios');
 require('dotenv').config();
 const cors = require('cors')
-
-
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -33,5 +31,5 @@ app.get('/shayari', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
