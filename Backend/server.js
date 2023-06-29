@@ -17,7 +17,7 @@ app.get('/shayari', async (req, res) => {
       n: 1
     }, {
       headers: {
-        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+        'Authorization': `Bearer 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`,
         'Content-Type': 'application/json'
       }
     });
